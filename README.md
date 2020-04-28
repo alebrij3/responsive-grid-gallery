@@ -12,7 +12,7 @@ This landing page is 100% responsive
 
 Fork it on GitHub or just type
 ```
-git clone https://github.com/alejvndrox/landing-page-watercolor.git
+git clone https://github.com/alejvndrox/responsive-grid-gallery.git
 ```
 on your terminal.
 
