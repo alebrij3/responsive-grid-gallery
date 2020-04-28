@@ -45,13 +45,16 @@
       grid-auto-rows: 240px;
     }
 
-    .card-tall {
-      grid-row: span 2 / auto;
+    @media screen and (min-width: 500px) {
+      .card-tall {
+        grid-row: span 2 / auto;
+      }
+
+      .card-wide {
+        grid-column: span 2 / auto;
+      }
     }
 
-    .card-wide {
-      grid-column: span 2 / auto;
-    }
   </style>
 
 </head>
