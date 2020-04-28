@@ -10,7 +10,7 @@
     body {
         background: rgb(19, 19, 19);
     }
-    .card, .card-tall, .card-wide {
+    .card {
         background: #353535;
         height: 100%;
         width: 100%;
@@ -23,7 +23,7 @@
         background-repeat: no-repeat;
     }
       
-    .card:hover, .card-tall:hover, .card-wide:hover {
+    .card:hover {
         box-shadow: rgba(2, 8, 20, 0.1) 0px 0.35em 1.175em, rgba(2, 8, 20, 0.08) 0px 0.175em 0.5em;
         transform: translateY(-3px) scale(1.1);
     }
@@ -36,11 +36,11 @@
     }
 
     @media screen and (min-width: 400px) {
-      .card-tall {
+      .tall {
         grid-row: span 2 / auto;
       }
 
-      .card-wide {
+      .wide {
         grid-column: span 2 / auto;
       }
     }
@@ -50,15 +50,15 @@
 </head>
 <body>
   <div class="grid">
-    <div class="card-tall" style="background-image: url('https://images.unsplash.com/photo-1587732593677-9ea82f5fd81f?ixlib=rb-1.2.1&auto=format&fit=crop&w=282&q=80');"></div>
+    <div class="card tall" style="background-image: url('https://images.unsplash.com/photo-1587732593677-9ea82f5fd81f?ixlib=rb-1.2.1&auto=format&fit=crop&w=282&q=80');"></div>
     <div class="card" style="background-image: url('https://images.unsplash.com/photo-1587606542254-8ec8a68cf085?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80');"></div>
     <div class="card" style="background-image: url('https://images.unsplash.com/photo-1574629203662-96d4698f2e09?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80');"></div>
     <div class="card" style="background-image: url('https://images.unsplash.com/photo-1497366672149-e5e4b4d34eb3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80');"></div>
     <div class="card" style="background-image: url('https://images.unsplash.com/photo-1558882224-dda166733046?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=749&q=80');"></div>
-    <div class="card-wide" style="background-image: url('https://images.unsplash.com/photo-1559160582-eab6966b680f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80');"></div>
+    <div class="card wide" style="background-image: url('https://images.unsplash.com/photo-1559160582-eab6966b680f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80');"></div>
     <div class="card" style="background-image: url('https://images.unsplash.com/photo-1504442405284-cafb9a59f71a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=752&q=80');"></div>
-    <div class="card-wide" style="background-image: url('https://images.unsplash.com/photo-1466338323166-f93e7299d3dd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=630&q=80');"></div>
-    <div class="card-tall" style="background-image: url('https://images.unsplash.com/photo-1543893424-907f9ebc6a5d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80');"></div>
+    <div class="card wide" style="background-image: url('https://images.unsplash.com/photo-1466338323166-f93e7299d3dd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=630&q=80');"></div>
+    <div class="card tall" style="background-image: url('https://images.unsplash.com/photo-1543893424-907f9ebc6a5d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=334&q=80');"></div>
     <div class="card" style="background-image: url('https://images.unsplash.com/photo-1557973451-06852e1b4bf6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=375&q=80');"></div>
     <div class="card" style="background-image: url('https://images.unsplash.com/photo-1587878217932-b5f1dbf08b9d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=403&q=80');"></div>
     <div class="card" style="background-image: url('https://images.unsplash.com/photo-1587877546848-41af16efc4e1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=375&q=80');"></div>
